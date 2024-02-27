@@ -1,7 +1,7 @@
 <template>
     <header>
-        <div :class="{ 'backdrop-blur-md': !isScrolled, 'bg-gray-300': isScrolled }"
-            class="max-w-screen-2xl fixed top-0 left-0 right-0 z-50 flex flex-wrap items-center justify-between p-4 mx-auto transition-all">
+        <div :class="{ 'bg-gray-300': isScrolled }"
+            class="lg:max-w-screen-2xl fixed top-0 left-0 right-0 z-50 flex flex-wrap items-center justify-between max-w-screen-lg p-4 mx-auto transition-all">
             <a href="#home" aria-label="PKBM Yeremia" title="PKBM Yeremia" class="inline-flex items-center">
                 <img src="/src/assets/logo.png" alt="logo" class="w-16 rounded-full">
                 <h2 :class="{ 'text-gray-800': isScrolled }"
@@ -48,7 +48,7 @@
             <div class="lg:hidden">
                 <button aria-label="Open Menu" title="Open Menu"
                     class="p-2 -mr-1 transition duration-200 border border-gray-700 rounded" @click="isMenuOpen = true">
-                    <svg :class="{ 'text-gray-800 w-5': isScrolled }" viewBox="0 0 24 24">
+                    <svg :class="{ 'text-gray-800': isScrolled }" class="text-gray-100" width="25" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z">
                         </path>
                         <path fill="currentColor" d="M23,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,6,23,6z">

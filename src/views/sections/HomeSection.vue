@@ -1,7 +1,7 @@
 <template>
     <!-- Home Section Start -->
-    <section id="home"
-        class="relative bg-cover md:bg-top bg-right bg-no-repeat bg-[url('/album/bg-home.jpg')] bg-gray-400 bg-blend-multiply">
+    <section id="home" class="md:bg-top bg-blend-multiply relative bg-gray-400 bg-right bg-no-repeat bg-cover"
+        style="background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), transparent), url('/album/bg-home.jpg')">
         <div class="font-inter lg:py-80 max-w-screen-xl px-4 py-64 mx-auto text-center">
             <h1 ref="typingText"
                 class="md:text-5xl lg:text-6xl mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-100">
@@ -25,7 +25,7 @@
                 </a>
             </div>
         </div>
-        <div class="md:grid-cols-3 md:gap-8 md:p-8 -bottom-16 shadow-gray-500 absolute inset-x-0 grid grid-cols-2 gap-6 p-6 mx-6 bg-gray-200 rounded-lg shadow-md"
+        <div class="md:gap-8 md:p-8 -bottom-16 shadow-gray-500 font-inter absolute inset-x-0 grid grid-cols-3 gap-6 p-6 mx-6 bg-gray-200 rounded-lg shadow-md"
             data-aos="fade-up" data-aos-duration="1000">
             <!-- stat - start -->
             <div class="text-rose-700 flex flex-col items-center transition-all duration-500 ease-in-out">
@@ -41,8 +41,7 @@
             </div>
 
             <!-- stat - start -->
-            <div
-                class="text-rose-700 md:col-span-1 flex flex-col items-center col-span-2 transition-all duration-500 ease-in-out">
+            <div class="text-rose-700 flex flex-col items-center transition-all duration-500 ease-in-out">
                 <div class="sm:text-2xl md:text-3xl text-xl font-bold">{{ pengajar }}</div>
                 <div class="sm:text-base text-sm">Pengajar</div>
             </div>

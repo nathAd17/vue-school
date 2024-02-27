@@ -6,7 +6,7 @@ import mission from '../../data/mission.js'
     <section class="bg-gray-100">
         <div class="lg:gap-8 xl:gap-0 lg:grid-cols-12 md:grid flex flex-col max-w-screen-xl px-4 pt-24 mx-auto">
             <div class="place-self-center lg:col-span-7 mr-auto">
-                <h1 class="font-rubik md:text-left max-w-2xl mb-10 text-4xl font-extrabold leading-none tracking-tight text-center text-gray-800"
+                <h1 class="font-rubik md:text-left max-w-xl mb-10 text-4xl font-extrabold leading-none tracking-tight text-center text-gray-800"
                     data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
                     Sambutan Kepala Sekolah</h1>
                 <p class="font-opensans lg:mb-8 md:text-lg lg:text-xl max-w-2xl mb-6 font-medium text-gray-700"
@@ -45,8 +45,8 @@ import mission from '../../data/mission.js'
             </div>
         </div>
     </section>
-    <section id="about" class="pt-20 bg-gray-100">
-        <div class="font-rubik lg:pt-0 max-w-screen-md pt-8 mx-auto text-center">
+    <section id="about" class="lg:pt-20 max-w-screen-xl pt-10 mx-auto">
+        <div class="font-rubik lg:pt-0 pt-8 mx-auto text-center">
             <span class="relative inline-block">
                 <svg viewBox="0 0 52 24"
                     class="fill-rose-500 -left-24 text-rose-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block absolute top-0 z-0 hidden w-32 -mt-8 -ml-20">
@@ -66,16 +66,16 @@ import mission from '../../data/mission.js'
             <p class="sm:text-xl font-medium text-gray-700" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolor.</p>
         </div>
-        <div class="sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-4 lg:py-20 px-4 py-16 mx-auto">
+        <div class="sm:max-w-lg md:max-w-full lg:w-screen lg:py-20 px-4 py-16 mx-auto">
             <div class="lg:grid-cols-2 grid gap-8 row-gap-8">
                 <div>
                     <img class="sm:h-[30rem] object-cover w-full h-56 rounded shadow-lg" src="/album/img-about.jpg"
                         alt="album" data-aos="zoom-in" data-aos-delay="100" />
                 </div>
                 <div class="flex flex-col justify-start">
-                    <div class="max-w-xl mb-6">
+                    <div class="max-w-lg mb-6">
                         <h1 data-aos="fade-left" data-aos-easing="ease-in-sine"
-                            class="font-rubik max-w-2xl mb-6 text-4xl font-extrabold leading-none tracking-normal text-gray-800">
+                            class="font-rubik w-full mb-6 text-4xl font-extrabold leading-none tracking-normal text-gray-800">
                             VISI-MISI PKBM Yeremia</h1>
                         <span data-aos="zoom-in" data-aos-delay="300"
                             class="font-inter bg-rose-100 shadow-slate-300 px-6 py-1 text-xl font-bold text-left text-gray-900 border border-gray-200 rounded-sm shadow-md">Visi
