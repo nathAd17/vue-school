@@ -10,24 +10,20 @@
                 </h2>
             </a>
             <ul class="lg:flex font-inter items-center hidden gap-6 space-x-8 font-semibold">
-                <li
-                    :class="{ 'text-rose-500 font-bold': activeMenu === 'home', 'text-gray-100 ': activeMenu !== 'home', 'text-gray-800': isScrolled }">
+                <li :class="{ 'text-gray-800': isScrolled }">
                     <a href="#home" aria-label="Home" title="Home"
                         class="hover:text-rose-500 tracking-wide transition-colors duration-200">Beranda</a>
                 </li>
-                <li
-                    :class="{ 'text-rose-500 font-bold': activeMenu === 'tentang-kami', 'text-gray-100 ': activeMenu !== 'tentang-kami', 'text-gray-800': isScrolled }">
+                <li :class="{ 'text-gray-800': isScrolled }">
                     <a href="#about" aria-label="tentang-kami" title="tentang-kami"
                         class="hover:text-rose-500 active:text-white tracking-wide transition-colors duration-200">Tentang
                         Kami</a>
                 </li>
-                <li
-                    :class="{ 'text-rose-500 font-bold': activeMenu === 'layanan', 'text-gray-100 ': activeMenu !== 'layanan', 'text-gray-800': isScrolled }">
+                <li :class="{ 'text-gray-800': isScrolled }">
                     <a href="#service" aria-label="layanan " title="layanan "
                         class="hover:text-rose-500 tracking-wide transition-colors duration-200">Layanan</a>
                 </li>
-                <li
-                    :class="{ 'text-rose-500 font-bold': activeMenu === 'kontak', 'text-gray-100 ': activeMenu !== 'kontak', 'text-gray-800': isScrolled }">
+                <li :class="{ 'text-gray-800': isScrolled }">
                     <a href="#contact" aria-label="kontak" title="kontak"
                         class="hover:text-rose-500 tracking-wide transition-colors duration-200">Kontak</a>
                 </li>
@@ -48,7 +44,7 @@
             <div class="lg:hidden">
                 <button aria-label="Open Menu" title="Open Menu"
                     class="p-2 -mr-1 transition duration-200 border border-gray-700 rounded" @click="isMenuOpen = true">
-                    <svg :class="{ 'text-gray-800 w-5': isScrolled }" viewBox="0 0 24 24">
+                    <svg :class="{ 'text-gray-800': isScrolled }" width="24" viewBox="0 0 24 24">
                         <path fill="currentColor" d="M23,13H1c-0.6,0-1-0.4-1-1s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,13,23,13z">
                         </path>
                         <path fill="currentColor" d="M23,6H1C0.4,6,0,5.6,0,5s0.4-1,1-1h22c0.6,0,1,0.4,1,1S23.6,6,23,6z">
