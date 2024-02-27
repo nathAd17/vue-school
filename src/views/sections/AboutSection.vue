@@ -45,54 +45,59 @@ import mission from '../../data/mission.js'
             </div>
         </div>
     </section>
-    <section id="about" class="lg:pt-20 max-w-screen-xl pt-10 mx-auto">
-        <div class="font-rubik lg:pt-0 pt-8 mx-auto text-center">
-            <span class="relative inline-block">
-                <svg viewBox="0 0 52 24"
-                    class="fill-rose-500 -left-24 text-rose-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block absolute top-0 z-0 hidden w-32 -mt-8 -ml-20">
-                    <defs>
-                        <pattern id="d9d7687a-355f-4502-8ec4-7945db034688" x="0" y="0" width=".185" height=".50">
-                            <circle cx="1" cy="1" r=".7"></circle>
-                        </pattern>
-                    </defs>
-                    <rect fill="url(#d9d7687a-355f-4502-8ec4-7945db034688)" width="52" height="24">
-                    </rect>
-                </svg>
-            </span>
-            <h1 class="mb-8 text-4xl font-bold tracking-tight text-center text-gray-800" data-aos="fade-up"
-                data-aos-duration="500">
-                Tentang Kami
-            </h1>
-            <p class="sm:text-xl font-medium text-gray-700" data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolor.</p>
-        </div>
-        <div class="sm:max-w-lg md:max-w-full lg:w-screen lg:py-20 px-4 py-16 mx-auto">
-            <div class="lg:grid-cols-2 grid gap-8 row-gap-8">
-                <div>
-                    <img class="sm:h-[30rem] object-cover w-full h-56 rounded shadow-lg" src="/album/img-about.jpg"
-                        alt="album" data-aos="zoom-in" data-aos-delay="100" />
+    <div id="about" class="sm:py-8 lg:py-20 py-10 bg-gray-100">
+        <div class="md:px-8 max-w-screen-xl px-4 mx-auto">
+            <div class="font-rubik lg:pt-0 pt-8 mx-auto text-center">
+                <span class="relative inline-block">
+                    <svg viewBox="0 0 52 24"
+                        class="fill-rose-500 -left-24 text-rose-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block absolute top-0 z-0 hidden w-32 -mt-8 -ml-20">
+                        <defs>
+                            <pattern id="d9d7687a-355f-4502-8ec4-7945db034688" x="0" y="0" width=".185" height=".50">
+                                <circle cx="1" cy="1" r=".7"></circle>
+                            </pattern>
+                        </defs>
+                        <rect fill="url(#d9d7687a-355f-4502-8ec4-7945db034688)" width="52" height="24">
+                        </rect>
+                    </svg>
+                </span>
+                <h1 class="mb-8 text-4xl font-bold tracking-tight text-center text-gray-800" data-aos="fade-up"
+                    data-aos-duration="500">
+                    Tentang Kami
+                </h1>
+                <p class="sm:text-xl font-medium text-gray-700" data-aos="fade-up" data-aos-delay="300"
+                    data-aos-duration="500">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolor.</p>
+            </div>
+            <div class="md:grid-cols-2 grid gap-4 mt-6">
+                <!-- images - start -->
+                <div class="lg:grid-cols-5 grid">
+                    <div class="lg:col-span-5 relative overflow-hidden bg-gray-100 rounded-lg">
+                        <img src="/album/img-about.jpg" loading="lazy" alt="Photo by Himanshu Dewangan"
+                            class="object-cover object-center w-full h-full" />
+                    </div>
                 </div>
-                <div class="flex flex-col justify-start">
-                    <div class="max-w-lg mb-6">
-                        <h1 data-aos="fade-left" data-aos-easing="ease-in-sine"
-                            class="font-rubik w-full mb-6 text-4xl font-extrabold leading-none tracking-normal text-gray-800">
-                            VISI-MISI PKBM Yeremia</h1>
+                <!-- images - end -->
+
+                <!-- content - start -->
+                <div class="md:py-8">
+                    <div class="md:mb-3 mb-2">
                         <span data-aos="zoom-in" data-aos-delay="300"
                             class="font-inter bg-rose-100 shadow-slate-300 px-6 py-1 text-xl font-bold text-left text-gray-900 border border-gray-200 rounded-sm shadow-md">Visi
                         </span>
+                    </div>
+                    <div class="md:mb-10 flex items-center gap-3 mb-6">
                         <p data-aos="fade-left" data-aos-delay="200" data-aos-easing="ease-in-sine"
                             class="md:text-lg font-opensans mt-2 text-base font-medium text-justify text-gray-700">
                             Tercapainya masyarakat yang cerdas, terampil, mandiri, berbudi luhur dan produktif dan dapat
                             meningkatkan kesejahteraan masyarakat
                         </p>
                     </div>
-                    <div class="max-w-xl">
+                    <div class="md:mb-6 mb-4">
                         <span data-aos="zoom-in" data-aos-delay="300"
                             class="font-inter bg-rose-100 shadow-slate-300 px-6 py-1 text-xl font-bold text-left text-gray-800 border border-gray-200 rounded-sm shadow-md">Misi
                         </span>
-                    </div>
-                    <div class="sm:grid-cols-2 grid gap-5 row-gap-8 mt-4">
-                        <ul class="pr-8 space-y-3" v-for="misi in mission" :key="misi.id">
+
+                        <ul class="pr-8 mt-5 space-y-3" v-for="misi in mission" :key="misi.id">
                             <li data-aos="zoom-in-up" data-aos-delay="500"
                                 class="font-opensans flex text-base font-medium tracking-wide text-justify text-gray-900">
                                 <span class="mr-1">
@@ -106,7 +111,8 @@ import mission from '../../data/mission.js'
                         </ul>
                     </div>
                 </div>
+                <!-- content - end -->
             </div>
         </div>
-    </section>
+    </div>
 </template>

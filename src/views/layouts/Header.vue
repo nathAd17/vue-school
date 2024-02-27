@@ -1,7 +1,7 @@
 <template>
     <header>
         <div :class="{ 'bg-gray-300': isScrolled }"
-            class="lg:max-w-screen-2xl fixed top-0 left-0 right-0 z-50 flex flex-wrap items-center justify-between max-w-screen-lg p-4 mx-auto transition-all">
+            class="lg:max-w-screen-2xl md:max-w-screen-xl fixed top-0 left-0 right-0 z-50 flex flex-wrap items-center justify-between p-4 mx-auto transition-all">
             <a href="#home" aria-label="PKBM Yeremia" title="PKBM Yeremia" class="inline-flex items-center">
                 <img src="/src/assets/logo.png" alt="logo" class="w-16 rounded-full">
                 <h2 :class="{ 'text-gray-800': isScrolled }"
