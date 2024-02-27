@@ -1,7 +1,7 @@
 <template>
     <!-- Home Section Start -->
     <section id="home"
-        class="relative bg-cover md:bg-top bg-right bg-no-repeat bg-[url('album/bg-home.jpg')] bg-gray-400 bg-blend-multiply">
+        class="relative bg-cover md:bg-top bg-right bg-no-repeat bg-[url('/album/bg-home.jpg')] bg-gray-400 bg-blend-multiply">
         <div class="font-inter lg:py-80 max-w-screen-xl px-4 py-64 mx-auto text-center">
             <h1 ref="typingText"
                 class="md:text-5xl lg:text-6xl mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-100">
