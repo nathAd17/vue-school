@@ -12,6 +12,7 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "primeicons": "^6.0.1",
     "primevue": "^3.49.0",
     "sweetalert2": "^11.10.5",

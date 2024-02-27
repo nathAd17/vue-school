@@ -50,7 +50,7 @@
                         </div>
                         <button type="submit"
                             class="sm:w-fit hover:bg-rose-900 focus:ring-4 focus:outline-none focus:ring-rose-300 bg-rose-700 px-5 py-3 text-base font-medium text-center text-white transition-colors duration-300 ease-in-out rounded-lg"
-                            data-aos="fade-up" data-aos-delay="500" data-aos-duration="500">Kirim Pesan</button>
+                            data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">Kirim Pesan</button>
                     </form>
                 </div>
             </div>
