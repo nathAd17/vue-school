@@ -70,7 +70,7 @@ import mission from '../../data/mission.js'
                 <div class="flex flex-col justify-center">
                     <div class="max-w-xl mb-6">
                         <span data-aos="zoom-in" data-aos-delay="300"
-                            class="font-inter bg-rose-100 shadow-slate-300 px-6 py-1 text-xl font-bold text-left text-gray-900 border border-gray-200 rounded-sm shadow-md">Visi
+                            class="font-inter bg-rose-100 shadow-slate-300 px-6 py-1 mb-1 text-xl font-bold text-left text-gray-900 border border-gray-200 rounded-sm shadow-md">Visi
                         </span>
                         <p data-aos="fade-left" data-aos-delay="200" data-aos-easing="ease-in-sine"
                             class="md:text-lg font-opensans mt-2 text-base font-medium text-justify text-gray-700">
@@ -78,7 +78,7 @@ import mission from '../../data/mission.js'
                             meningkatkan kesejahteraan masyarakat
                         </p>
                     </div>
-                    <div class="max-w-xl mb-6">
+                    <div class="max-w-xl mb-1">
                         <span data-aos="zoom-in" data-aos-delay="300"
                             class="font-inter bg-rose-100 shadow-slate-300 inline-block px-6 py-1 text-xl font-bold text-left text-gray-800 border border-gray-200 rounded-sm shadow-md">Misi
                         </span>

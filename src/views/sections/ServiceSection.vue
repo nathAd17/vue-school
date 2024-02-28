@@ -38,7 +38,7 @@ onMounted(() => {
             </div>
             <div class="md:grid-cols-2 font-rubik lg:grid-cols-3 grid gap-5 mb-8">
                 <div v-for="service in services" :key="service.id"
-                    class="hover:-translate-y-2 bg-gray-50 border-rose-300 p-5 duration-300 transform border-2 border-dashed rounded shadow-sm"
+                    class="hover:-translate-y-2 bg-gray-50 border-rose-300 p-5 pb-20 duration-300 transform border-2 border-dashed rounded shadow-sm"
                     data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
                     <div class="bg-indigo-50 flex items-center justify-center w-8 h-8 mb-4 rounded-full">
                         <svg class="text-rose-400 w-6 h-6" stroke="currentColor" viewBox="0 0 52 52">
@@ -50,14 +50,25 @@ onMounted(() => {
                     <p class="text-sm text-gray-700">
                         {{ service.details.description }}
                     </p>
-                    <div class="detail-cta mx-auto mt-4">
-                        <button
-                            class="bg-gray-50 hover:bg-gray-200 rounded-xl shadow-gray-400 flex items-center justify-center p-2 transition-colors duration-500 ease-in-out border border-gray-400 shadow-md">Daftar
-                            <svg class="w-6 h-6 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
-                                fill="none" viewBox="0 0 24 24">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M19 12H5m14 0-4 4m4-4-4-4" />
-                            </svg></button>
+                    <div class="detail-cta mx-auto mt-4 absolute bottom-5">
+                        <div class="flex justify-between gap-8 items-center">
+                            <button
+                                class="bg-gray-50 hover:bg-gray-200 rounded-xl shadow-gray-400 flex items-center justify-center p-2 transition-colors duration-500 ease-in-out border border-gray-400 shadow-md">Detail
+                                <svg class="w-5 h-5 text-gray-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd"
+                                        d="M2 12a10 10 0 1 1 20 0 10 10 0 0 1-20 0Zm9.4-5.5a1 1 0 1 0 0 2 1 1 0 1 0 0-2ZM10 10a1 1 0 1 0 0 2h1v3h-1a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2h-1v-4c0-.6-.4-1-1-1h-2Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </button>
+                            <button
+                                class="bg-rose-700 hover:bg-rose-800 focus:ring-4 focus:ring-rose-300 inline-flex items-center justify-center p-2 text-base font-medium text-center text-gray-100 transition-colors duration-300 ease-in-out rounded-xl">Daftar
+                                <svg class="w-6 h-6 text-gray-100" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                    fill="none" viewBox="0 0 24 24">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke-width="2" d="M19 12H5m14 0-4 4m4-4-4-4" />
+                                </svg></button>
+                        </div>
                     </div>
                 </div>
             </div>
