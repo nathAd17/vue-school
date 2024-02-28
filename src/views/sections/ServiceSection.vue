@@ -1,6 +1,10 @@
 <script setup>
 import services from "../../data/services.js";
-import { ref } from 'vue';
+import { onMounted } from "vue"
+import AOS from "aos"
+onMounted(() => {
+    AOS.init();
+})
 </script>
 <template>
     <section id="service" class="bg-gray-200">
@@ -35,7 +39,7 @@ import { ref } from 'vue';
             <div class="md:grid-cols-2 font-rubik lg:grid-cols-3 grid gap-5 mb-8">
                 <div v-for="service in services" :key="service.id"
                     class="hover:-translate-y-2 bg-gray-50 border-rose-300 p-5 duration-300 transform border-2 border-dashed rounded shadow-sm"
-                    data-aos="fade-right" data-aos-delay="300" data-aos-duration="300">
+                    data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
                     <div class="bg-indigo-50 flex items-center justify-center w-8 h-8 mb-4 rounded-full">
                         <svg class="text-rose-400 w-6 h-6" stroke="currentColor" viewBox="0 0 52 52">
                             <polygon stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"
@@ -48,7 +52,7 @@ import { ref } from 'vue';
                     </p>
                     <div class="detail-cta mx-auto mt-4">
                         <button
-                            class="bg-gray-50 hover:bg-gray-200 rounded-xl shadow-gray-400 flex items-center justify-center p-2 transition-colors duration-500 ease-in-out border border-gray-400 shadow-md">Detail
+                            class="bg-gray-50 hover:bg-gray-200 rounded-xl shadow-gray-400 flex items-center justify-center p-2 transition-colors duration-500 ease-in-out border border-gray-400 shadow-md">Daftar
                             <svg class="w-6 h-6 text-gray-800" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                 fill="none" viewBox="0 0 24 24">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"

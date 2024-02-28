@@ -1,6 +1,5 @@
 <script setup>
 import mission from '../../data/mission.js'
-
 </script>
 <template>
     <section class="bg-gray-100">
@@ -9,7 +8,7 @@ import mission from '../../data/mission.js'
                 <h1 class="font-rubik md:text-left max-w-xl mb-10 text-4xl font-extrabold leading-none tracking-tight text-center text-gray-800"
                     data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
                     Sambutan Kepala Sekolah</h1>
-                <p class="font-opensans lg:mb-8 md:text-lg lg:text-xl max-w-2xl mb-6 font-medium text-gray-700"
+                <p class="font-opensans lg:mb-8 md:text-lg lg:text-xl max-w-xl mb-6 font-medium text-gray-700"
                     data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
                     Selamat datang di PKBM Yeremia, tempat pendidikan yang mencerahkan setiap langkah. Sebagai
                     Kepala Sekolah, kami bangga
@@ -45,61 +44,49 @@ import mission from '../../data/mission.js'
             </div>
         </div>
     </section>
-    <div id="about" class="sm:py-8 lg:py-20 py-10 bg-gray-100">
-        <div class="md:px-8 max-w-screen-xl px-4 mx-auto">
-            <div class="font-rubik lg:pt-0 pt-8 mx-auto text-center">
-                <span class="relative inline-block">
-                    <svg viewBox="0 0 52 24"
-                        class="fill-rose-500 -left-24 text-rose-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block absolute top-0 z-0 hidden w-32 -mt-8 -ml-20">
-                        <defs>
-                            <pattern id="d9d7687a-355f-4502-8ec4-7945db034688" x="0" y="0" width=".185" height=".50">
-                                <circle cx="1" cy="1" r=".7"></circle>
-                            </pattern>
-                        </defs>
-                        <rect fill="url(#d9d7687a-355f-4502-8ec4-7945db034688)" width="52" height="24">
-                        </rect>
-                    </svg>
-                </span>
-                <h1 class="mb-8 text-4xl font-bold tracking-tight text-center text-gray-800" data-aos="fade-up"
-                    data-aos-duration="500">
-                    Tentang Kami
-                </h1>
-                <p class="sm:text-xl font-medium text-gray-700" data-aos="fade-up" data-aos-delay="300"
-                    data-aos-duration="500">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, dolor.</p>
-            </div>
-            <div class="md:grid-cols-2 grid gap-4 mt-6">
-                <!-- images - start -->
-                <div class="lg:grid-cols-5 grid">
-                    <div class="lg:col-span-5 relative overflow-hidden bg-gray-100 rounded-lg">
-                        <img src="/album/img-about.jpg" loading="lazy" alt="Photo by Himanshu Dewangan"
-                            class="object-cover object-center w-full h-full" />
-                    </div>
+    <section id="about" class="pt-28 pb-6 text-slate-700 bg-gray-50">
+        <div class="sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-84 pb-28 px-4 mx-auto">
+            <span class="relative inline-block">
+                <svg viewBox="0 0 52 24"
+                    class="fill-rose-500 -left-24 text-rose-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block absolute top-0 z-0 hidden w-32 -mt-8 -ml-20">
+                    <defs>
+                        <pattern id="d9d7687a-355f-4502-8ec4-7945db034688" x="0" y="0" width=".185" height=".50">
+                            <circle cx="1" cy="1" r=".7"></circle>
+                        </pattern>
+                    </defs>
+                    <rect fill="url(#d9d7687a-355f-4502-8ec4-7945db034688)" width="52" height="24">
+                    </rect>
+                </svg>
+            </span>
+            <h1 class="mb-8 font-rubik text-4xl font-bold tracking-tight text-center text-gray-800" data-aos="fade-up"
+                data-aos-duration="500">
+                Tentang Kami
+            </h1>
+            <div class="lg:grid-cols-2 grid gap-12 row-gap-8">
+                <div class="lg:w-full relative" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200">
+                    <img class="lg:w-full object-cover h-full border border-rose-700 rounded-lg" src="/album/img-about.jpg"
+                        alt="about-img" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200" />
                 </div>
-                <!-- images - end -->
-
-                <!-- content - start -->
-                <div class="md:py-8">
-                    <div class="md:mb-3 mb-2">
+                <div class="flex flex-col justify-center">
+                    <div class="max-w-xl mb-6">
                         <span data-aos="zoom-in" data-aos-delay="300"
                             class="font-inter bg-rose-100 shadow-slate-300 px-6 py-1 text-xl font-bold text-left text-gray-900 border border-gray-200 rounded-sm shadow-md">Visi
                         </span>
-                    </div>
-                    <div class="md:mb-10 flex items-center gap-3 mb-6">
                         <p data-aos="fade-left" data-aos-delay="200" data-aos-easing="ease-in-sine"
                             class="md:text-lg font-opensans mt-2 text-base font-medium text-justify text-gray-700">
                             Tercapainya masyarakat yang cerdas, terampil, mandiri, berbudi luhur dan produktif dan dapat
                             meningkatkan kesejahteraan masyarakat
                         </p>
                     </div>
-                    <div class="md:mb-6 mb-4">
+                    <div class="max-w-xl mb-6">
                         <span data-aos="zoom-in" data-aos-delay="300"
-                            class="font-inter bg-rose-100 shadow-slate-300 px-6 py-1 text-xl font-bold text-left text-gray-800 border border-gray-200 rounded-sm shadow-md">Misi
+                            class="font-inter bg-rose-100 shadow-slate-300 inline-block px-6 py-1 text-xl font-bold text-left text-gray-800 border border-gray-200 rounded-sm shadow-md">Misi
                         </span>
-
-                        <ul class="pr-8 mt-5 space-y-3" v-for="misi in mission" :key="misi.id">
+                    </div>
+                    <div class="md:flex-nowrap flex flex-col flex-wrap items-start gap-2">
+                        <ul class=" mt-5 space-y-3" v-for="misi in mission" :key="misi.id">
                             <li data-aos="zoom-in-up" data-aos-delay="500"
-                                class="font-opensans flex text-base font-medium tracking-wide text-justify text-gray-900">
+                                class="font-opensans flex text-base font-medium tracking-normal text-left md:text-justify text-gray-900">
                                 <span class="mr-1">
                                     <svg class="w-5 h-5 mt-px text-red-600" stroke="currentColor" viewBox="0 0 52 52">
                                         <polygon stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"
@@ -111,8 +98,8 @@ import mission from '../../data/mission.js'
                         </ul>
                     </div>
                 </div>
-                <!-- content - end -->
+
             </div>
         </div>
-    </div>
+    </section>
 </template>

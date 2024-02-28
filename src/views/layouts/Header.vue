@@ -35,7 +35,7 @@
             <ul class="lg:flex items-center hidden space-x-8">
                 <li>
                     <a href="#"
-                        class="bg-rose-700 hover:bg-rose-800 focus:ring-4 focus:ring-rose-300 inline-flex items-center justify-center p-2 text-base font-medium text-center text-gray-100 transition-colors duration-300 ease-in-out rounded-lg">
+                        class="bg-rose-700 hover:bg-rose-800 focus:ring-4 focus:ring-rose-300 inline-flex items-center justify-center p-2 text-base font-semibold text-center text-gray-100 transition-colors duration-300 ease-in-out rounded-lg">
                         Daftar
                         <svg class="ms-2 rtl:rotate-180 w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                             fill="none" viewBox="0 0 14 10">
