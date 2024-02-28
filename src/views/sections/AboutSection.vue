@@ -5,7 +5,7 @@ import mission from '../../data/mission.js'
     <section class="bg-gray-100">
         <div class="lg:gap-8 xl:gap-0 lg:grid-cols-12 md:grid flex flex-col max-w-screen-xl px-4 pt-24 mx-auto">
             <div class="place-self-center lg:col-span-7 mr-auto">
-                <h1 class="font-rubik md:text-left max-w-xl mb-10 text-4xl font-extrabold leading-none tracking-tight text-center text-gray-800"
+                <h1 class="font-rubik md:text-left max-w-xl mb-10 text-xl md:text-4xl font-extrabold leading-none tracking-tight text-center text-gray-800"
                     data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
                     Sambutan Kepala Sekolah</h1>
                 <p class="font-opensans lg:mb-8 md:text-lg lg:text-xl max-w-xl mb-6 font-medium text-gray-700"
@@ -45,7 +45,7 @@ import mission from '../../data/mission.js'
         </div>
     </section>
     <section id="about" class="pt-28 pb-6 text-slate-700 bg-gray-50">
-        <div class="sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-84 pb-28 px-4 mx-auto">
+        <div class="sm:w-full md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-84 pb-28 px-4 mx-auto">
             <span class="relative inline-block">
                 <svg viewBox="0 0 52 24"
                     class="fill-rose-500 -left-24 text-rose-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block absolute top-0 z-0 hidden w-32 -mt-8 -ml-20">
@@ -68,7 +68,7 @@ import mission from '../../data/mission.js'
                         alt="about-img" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="200" />
                 </div>
                 <div class="flex flex-col justify-center">
-                    <div class="max-w-xl mb-6">
+                    <div class="w-full lg:max-w-lg mb-6">
                         <span data-aos="zoom-in" data-aos-delay="300"
                             class="font-inter bg-rose-100 shadow-slate-300 px-6 py-1 mb-1 text-xl font-bold text-left text-gray-900 border border-gray-200 rounded-sm shadow-md">Visi
                         </span>
@@ -78,7 +78,7 @@ import mission from '../../data/mission.js'
                             meningkatkan kesejahteraan masyarakat
                         </p>
                     </div>
-                    <div class="max-w-xl mb-1">
+                    <div class="w-full lg:max-w-lg mb-1">
                         <span data-aos="zoom-in" data-aos-delay="300"
                             class="font-inter bg-rose-100 shadow-slate-300 inline-block px-6 py-1 text-xl font-bold text-left text-gray-800 border border-gray-200 rounded-sm shadow-md">Misi
                         </span>
