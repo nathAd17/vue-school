@@ -25,7 +25,7 @@
                 </a>
             </div>
         </div>
-        <div class="md:gap-8 md:p-8 -bottom-16 shadow-gray-500 font-inter absolute inset-x-0 grid grid-cols-3 gap-6 p-6 mx-6 bg-gray-200 rounded-lg shadow-md"
+        <div class="md:gap-8 md:p-8 -bottom-16 shadow-gray-500 font-inter md:grid-cols-4 absolute inset-x-0 grid grid-cols-2 gap-6 p-6 mx-6 bg-gray-200 rounded-lg shadow-md"
             data-aos="fade-up" data-aos-duration="1000">
             <!-- stat - start -->
             <div class="text-rose-700 flex flex-col items-center transition-all duration-500 ease-in-out">
@@ -45,6 +45,10 @@
                 <div class="sm:text-2xl md:text-3xl text-xl font-bold">{{ pengajar }}</div>
                 <div class="sm:text-base text-sm font-semibold">Pengajar</div>
             </div>
+            <div class="text-rose-700 flex flex-col items-center transition-all duration-500 ease-in-out">
+                <div class="sm:text-2xl md:text-3xl text-xl font-bold">{{ akreditasi }}</div>
+                <div class="sm:text-base text-sm font-semibold">Akreditasi</div>
+            </div>
             <!-- stat - end -->
         </div>
     </section>
@@ -56,7 +60,8 @@ export default {
         return {
             pelajar: 0,
             alumni: 0,
-            pengajar: 0
+            pengajar: 0,
+            akreditasi: '-',
         };
     },
     mounted() {
@@ -90,8 +95,9 @@ export default {
             const finalPelajar = 100;
             const finalAlumni = 500;
             const finalPengajar = 7;
+            const finalAkreditasi = 'B';
 
-            const duration = 2000; // Durasi animasi dalam milidetik
+            const duration = 3000; // Durasi animasi dalam milidetik
             const steps = 100; // Langkah-langkah dalam animasi
 
             const pelajarStep = finalPelajar / steps;
@@ -113,6 +119,7 @@ export default {
 
                 if (this.pelajar >= finalPelajar && this.alumni >= finalAlumni && this.pengajar >= finalPengajar) {
                     clearInterval(timer);
+                    this.akreditasi = finalAkreditasi; // Setelah animasi selesai, atur nilai akreditasi
                 }
             }, duration / steps);
         }
