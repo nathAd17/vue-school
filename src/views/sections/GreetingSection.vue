@@ -29,7 +29,7 @@
                 </p>
                 <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine"
                     class="font-rubik text-rose-800 lg:block underline-offset-8 bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 hidden py-3 text-3xl font-bold text-left underline rounded-lg">
-                    MR. Lorem Ipsum
+                    MR. Bingoo
                 </p>
             </div>
             <div class="lg:mt-20 lg:col-span-5 lg:flex py-2">
@@ -37,7 +37,7 @@
                     class="lg:-mt-10 lg:w-full lg:h-full w-96 h-96 md:object-contain lg:object-cover mb-4">
                 <p data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine"
                     class="font-rubik text-rose-800 lg:hidden underline-offset-8 bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 md:text-left block py-3 text-3xl font-bold text-center underline rounded-lg">
-                    MR. Lorem Ipsum
+                    MR. Bingoo
                 </p>
             </div>
         </div>
