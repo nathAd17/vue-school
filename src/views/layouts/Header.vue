@@ -9,7 +9,7 @@
                     <span class="text-rose-500">Yeremia</span>
                 </h2>
             </a>
-            <ul class="lg:flex font-inter items-center hidden gap-6 space-x-8 font-semibold">
+            <ul v-scroll="handleScroll" class="lg:flex font-inter items-center hidden gap-6 space-x-8 font-semibold">
                 <li
                     :class="{ 'text-rose-500 font-bold': activeMenu === 'home', 'text-gray-100 ': activeMenu !== 'home', 'text-gray-800': isScrolled }">
                     <a href="#home" aria-label="Home" title="Home"
@@ -141,7 +141,8 @@ export default {
         return {
             isScrolled: false,
             isMenuOpen: false,
-            activeMenu: '',
+            activeMenu: 'home', // menu aktif default
+
         };
     },
     watch: {
@@ -159,7 +160,24 @@ export default {
     methods: {
         handleScroll() {
             // Mendapatkan posisi scroll
-            const scrollPosition = window.scrollY || window.pageYOffset;
+            const aboutOffset = document.getElementById('about').offsetTop;
+            const serviceOffset = document.getElementById('service').offsetTop;
+            const galleryOffset = document.getElementById('gallery').offsetTop;
+            const contactOffset = document.getElementById('contact').offsetTop;
+            const windowHeight = window.innerHeight;
+            const scrollPosition = window.scrollY;
+
+            if (scrollPosition < aboutOffset - windowHeight / 2) {
+                this.activeMenu = 'home';
+            } else if (scrollPosition >= aboutOffset - windowHeight / 2 && scrollPosition < serviceOffset - windowHeight / 2) {
+                this.activeMenu = 'about';
+            } else if (scrollPosition >= serviceOffset - windowHeight / 2 && scrollPosition < galleryOffset - windowHeight / 2) {
+                this.activeMenu = 'service';
+            } else if (scrollPosition >= galleryOffset - windowHeight / 2 && scrollPosition < contactOffset - windowHeight / 2) {
+                this.activeMenu = 'gallery';
+            } else {
+                this.activeMenu = 'contact';
+            }
 
             // Mengubah nilai isScrolled berdasarkan posisi scroll
             this.isScrolled = scrollPosition > 0;
