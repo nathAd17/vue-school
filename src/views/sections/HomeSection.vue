@@ -30,20 +30,20 @@
             <!-- stat - start -->
             <div class="text-rose-700 flex flex-col items-center transition-all duration-500 ease-in-out">
                 <div class="sm:text-2xl md:text-3xl text-xl font-bold">{{ pelajar }}</div>
-                <div class="sm:text-base text-sm">Pelajar</div>
+                <div class="sm:text-base text-sm font-semibold">Pelajar</div>
             </div>
             <!-- stat - end -->
 
             <!-- stat - start -->
             <div class="text-rose-700 flex flex-col items-center transition-all duration-500 ease-in-out">
                 <div class="sm:text-2xl md:text-3xl text-xl font-bold">{{ alumni }} +</div>
-                <div class="sm:text-base text-sm">Alumni</div>
+                <div class="sm:text-base text-sm font-semibold">Alumni</div>
             </div>
 
             <!-- stat - start -->
             <div class="text-rose-700 flex flex-col items-center transition-all duration-500 ease-in-out">
                 <div class="sm:text-2xl md:text-3xl text-xl font-bold">{{ pengajar }}</div>
-                <div class="sm:text-base text-sm">Pengajar</div>
+                <div class="sm:text-base text-sm font-semibold">Pengajar</div>
             </div>
             <!-- stat - end -->
         </div>

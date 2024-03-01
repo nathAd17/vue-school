@@ -27,6 +27,11 @@
                         class="hover:text-rose-500 tracking-wide transition-colors duration-200">Layanan</a>
                 </li>
                 <li
+                    :class="{ 'text-rose-500 font-bold': activeMenu === 'gallery', 'text-gray-100 ': activeMenu !== 'gallery', 'text-gray-800': isScrolled }">
+                    <a href="#gallery" aria-label="gallery" title="gallery"
+                        class="hover:text-rose-500 tracking-wide transition-colors duration-200">Galeri</a>
+                </li>
+                <li
                     :class="{ 'text-rose-500 font-bold': activeMenu === 'contact', 'text-gray-100 ': activeMenu !== 'contact', 'text-gray-800': isScrolled }">
                     <a href="#contact" aria-label="kontak" title="kontak"
                         class="hover:text-rose-500 tracking-wide transition-colors duration-200">Kontak</a>
@@ -93,14 +98,15 @@
                                         class="hover:text-blue-400 font-medium tracking-wide transition-colors duration-200">Tentang
                                         Kami</a>
                                 </li>
-                                <!-- <li>
-                    <a href="/upload" aria-label="Add " title="Add "
-                      class="hover:text-blue-400 font-medium tracking-wide text-gray-800 transition-colors duration-200">Upload</a>
-                  </li> -->
                                 <li
                                     :class="{ 'text-rose-500 font-bold': activeMenu === 'service', 'text-gray-800 ': activeMenu !== 'service' }">
                                     <a href="#service" aria-label="layanan " title="layanan "
                                         class="hover:text-blue-400 font-medium tracking-wide transition-colors duration-200">Layanan</a>
+                                </li>
+                                <li
+                                    :class="{ 'text-rose-500 font-bold': activeMenu === 'gallery', 'text-gray-800 ': activeMenu !== 'gallery' }">
+                                    <a href="#gallery" aria-label="gallery " title="gallery "
+                                        class="hover:text-blue-400 font-medium tracking-wide transition-colors duration-200">Galeri</a>
                                 </li>
                                 <li
                                     :class="{ 'text-rose-500 font-bold': activeMenu === 'contact', 'text-gray-800 ': activeMenu !== 'contact' }">
