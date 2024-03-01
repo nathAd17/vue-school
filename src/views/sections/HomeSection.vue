@@ -61,9 +61,7 @@ export default {
     },
     mounted() {
         this.typeWriter();
-        setInterval(() => {
-            this.animateCount();
-        }, 5000);
+        this.animateCount();
     },
     methods: {
         typeWriter() {
@@ -118,6 +116,6 @@ export default {
                 }
             }, duration / steps);
         }
-    },
+    }
 };
 </script>

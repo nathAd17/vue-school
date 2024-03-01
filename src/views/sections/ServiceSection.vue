@@ -50,8 +50,8 @@ onMounted(() => {
                     <p class="text-sm text-gray-700">
                         {{ service.details.description }}
                     </p>
-                    <div class="detail-cta mx-auto mt-4 absolute bottom-5">
-                        <div class="flex justify-between gap-8 items-center">
+                    <div class="detail-cta bottom-5 absolute mx-auto mt-4">
+                        <div class="flex items-center justify-between gap-8">
                             <button
                                 class="bg-gray-50 hover:bg-gray-200 rounded-xl shadow-gray-400 flex items-center justify-center p-2 transition-colors duration-500 ease-in-out border border-gray-400 shadow-md">Detail
                                 <svg class="w-5 h-5 text-gray-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +62,7 @@ onMounted(() => {
                                 </svg>
                             </button>
                             <button
-                                class="bg-rose-700 hover:bg-rose-800 focus:ring-4 focus:ring-rose-300 inline-flex items-center justify-center p-2 text-base font-medium text-center text-gray-100 transition-colors duration-300 ease-in-out rounded-xl">Daftar
+                                class="bg-rose-700 hover:bg-rose-800 focus:ring-4 focus:ring-rose-300 rounded-xl inline-flex items-center justify-center p-2 text-base font-medium text-center text-gray-100 transition-colors duration-300 ease-in-out">Daftar
                                 <svg class="w-6 h-6 text-gray-100" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                     fill="none" viewBox="0 0 24 24">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
