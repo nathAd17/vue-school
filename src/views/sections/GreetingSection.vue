@@ -5,7 +5,7 @@
             <div class="place-self-center lg:col-span-7 mr-auto">
                 <h1 class="font-rubik md:text-left lg:max-w-xl mb-10 text-4xl font-extrabold leading-none tracking-tight text-center text-gray-800"
                     data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
-                    Sambutan Kepala Sekolah</h1>
+                    PKBM YEREMIA</h1>
                 <p class="font-opensans lg:mb-8 md:text-lg lg:text-xl md:max-w-full lg:max-w-xl mb-6 font-medium text-gray-700"
                     data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
                     Selamat datang di PKBM Yeremia, tempat pendidikan yang mencerahkan setiap langkah. Sebagai
