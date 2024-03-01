@@ -10,6 +10,12 @@ onMounted(() => {
     <section id="gallery">
         <div class="sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 px-4 py-16 mx-auto">
             <div class="lg:mb-16 font-rubik max-w-screen-md mx-auto mb-8 text-center">
+                <div>
+                    <h1 data-aos="zoom-in" data-aos-delay="200"
+                        class="bg-teal-accent-400 inline-block px-3 py-px text-xs font-semibold tracking-wider text-red-900 uppercase rounded-full">
+                        Galeri
+                    </h1>
+                </div>
                 <span class="relative inline-block">
                     <svg viewBox="0 0 52 24"
                         class="fill-rose-500 -left-24 text-rose-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block absolute top-0 z-0 hidden w-32 -mt-8 -ml-20">
@@ -24,7 +30,7 @@ onMounted(() => {
                 </span>
                 <h1 class="mb-8 text-4xl font-bold tracking-tight text-center text-gray-800" data-aos="fade-up"
                     data-aos-duration="500">
-                    Gallery
+                    Potret PKBM Yeremia
                 </h1>
                 <p class="lg:mb-16 sm:text-xl font-medium text-gray-700" data-aos="fade-up" data-aos-delay="500"
                     data-aos-duration="500">Mengabadikan Momen Pendidikan : Koleksi Inspiratif dari Siswa dan Staff</p>

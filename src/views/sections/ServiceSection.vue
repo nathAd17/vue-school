@@ -11,10 +11,10 @@ onMounted(() => {
         <div class="sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24 px-4 pt-32 pb-20 mx-auto">
             <div class="font-rubik md:mx-auto lg:max-w-2xl md:mb-12 max-w-xl mb-10 text-center">
                 <div>
-                    <p data-aos="zoom-in" data-aos-delay="200"
-                        class="bg-teal-accent-400 inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full">
-                        Program Kami
-                    </p>
+                    <h1 data-aos="zoom-in" data-aos-delay="200"
+                        class="bg-teal-accent-400 inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-red-900 uppercase rounded-full">
+                        Program / Layanan
+                    </h1>
                 </div>
                 <h2 data-aos="zoom-in" data-aos-delay="500"
                     class="sm:text-4xl md:mx-auto max-w-lg mb-6 text-3xl font-bold leading-none tracking-tight text-gray-900">

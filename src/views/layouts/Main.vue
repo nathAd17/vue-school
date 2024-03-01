@@ -1,4 +1,5 @@
 <template>
+    <Loading />
     <HomeSection />
 
     <GreetingSection />
@@ -10,6 +11,7 @@
     <ContactSection />
 </template>
 <script>
+import Loading from '../layouts/Loading.vue'
 import HomeSection from '../sections/HomeSection.vue'
 import GreetingSection from '../sections/GreetingSection.vue'
 import AboutSection from '../sections/AboutSection.vue'
@@ -19,6 +21,7 @@ import ContactSection from '../sections/ContactSection.vue'
 
 export default {
     components: {
+        Loading,
         HomeSection,
         GreetingSection,
         AboutSection,

@@ -1,13 +1,13 @@
 <template>
     <!-- Footer Start -->
     <footer>
-        <section class="font-inter bg-gray-200">
+        <section class="font-inter bg-gray-100">
             <div class="sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 px-4 pt-16 mx-auto">
                 <div class="sm:grid-cols-2 lg:grid-cols-4 grid gap-10 row-gap-6 mb-8">
                     <div class="sm:col-span-2">
                         <a href="#home" class="flex items-center gap-1">
                             <img src="/src/assets/logo.png" alt="PKBM Yeremia" class="w-auto h-16">
-                            <span class="font-rubik gray-100space-nowrap text-2xl font-semibold text-gray-700">PKBM
+                            <span class="font-rubik space-nowrap text-2xl font-semibold text-gray-700">PKBM
                                 Yeremia</span>
                         </a>
                         <div class="lg:max-w-sm mt-6">

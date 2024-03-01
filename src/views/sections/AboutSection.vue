@@ -7,16 +7,16 @@ onMounted(() => {
 })
 </script>
 <template>
-    <section class="bg-white" id="about">
-        <div class="font-rubik md:mx-auto md:mb-12 max-w-lg mt-20 mb-2 text-center">
+    <section class="bg-gray-100" id="about">
+        <div class="font-rubik md:mx-auto md:mb-12 max-w-lg pt-20 mb-2 text-center">
             <div>
-                <p data-aos="zoom-in" data-aos-delay="200"
-                    class="bg-teal-accent-400 inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full">
+                <h1 data-aos="zoom-in" data-aos-delay="200"
+                    class="bg-teal-accent-400 inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-red-900 uppercase rounded-full">
                     Tentang Kami
-                </p>
+                </h1>
             </div>
             <h2 data-aos="zoom-in" data-aos-delay="500"
-                class="sm:text-4xl md:mx-auto max-w-lg mb-2 text-3xl font-bold leading-none tracking-tight text-gray-900">
+                class="sm:text-4xl md:mx-auto max-w-lg text-3xl font-bold leading-none tracking-tight text-gray-800">
                 <span class="relative inline-block">
                     <svg viewBox="0 0 52 24"
                         class="fill-rose-500 -z-0 text-rose-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block absolute top-0 left-0 hidden w-32 -mt-8 -ml-20">
@@ -32,7 +32,7 @@ onMounted(() => {
                 Mengenal PKBM Yeremia
             </h2>
         </div>
-        <div class="lg:grid lg:grid-cols-2 lg:py-16 lg:px-6 items-start max-w-screen-xl gap-16 px-4 py-8 mx-auto">
+        <div class="lg:grid lg:grid-cols-2 lg:pb-16 lg:px-6 items-start max-w-screen-xl gap-16 px-4 py-8 mx-auto">
             <div class="sm:text-lg font-light text-gray-500">
                 <h2
                     class="font-inter bg-rose-100 shadow-slate-300 px-6 py-1 text-xl font-bold text-left text-gray-900 border border-gray-200 rounded-sm shadow-md">
