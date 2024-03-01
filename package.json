@@ -16,6 +16,7 @@
     "primeicons": "^6.0.1",
     "primevue": "^3.49.0",
     "sweetalert2": "^11.10.5",
+    "swiper": "^11.0.7",
     "vue": "^3.4.15",
     "vue-router": "^4.2.5"
   },

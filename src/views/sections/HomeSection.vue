@@ -25,7 +25,7 @@
                 </a>
             </div>
         </div>
-        <div class="md:gap-8 md:p-8 -bottom-16 shadow-gray-500 font-inter md:grid-cols-4 absolute inset-x-0 grid max-w-screen-xl grid-cols-2 gap-6 p-6 mx-auto bg-gray-200 rounded-lg shadow-md"
+        <div class="md:gap-8 md:p-8 z-[999] -bottom-16 shadow-gray-500 font-inter md:grid-cols-4 absolute inset-x-0 grid max-w-screen-xl grid-cols-2 gap-6 p-6 mx-auto bg-gray-200 rounded-lg shadow-md"
             data-aos="fade-up" data-aos-duration="1000">
             <!-- stat - start -->
             <div class="text-rose-700 flex flex-col items-center transition-all duration-500 ease-in-out">

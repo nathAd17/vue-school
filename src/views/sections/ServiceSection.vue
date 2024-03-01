@@ -7,7 +7,7 @@ onMounted(() => {
 })
 </script>
 <template>
-    <section id="service" class="bg-gray-200">
+    <section id="service" class="relative bg-gray-200">
         <div class="sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24 px-4 pt-32 pb-20 mx-auto">
             <div class="font-rubik md:mx-auto lg:max-w-2xl md:mb-12 max-w-xl mb-10 text-center">
                 <div>
