@@ -6,6 +6,7 @@ onMounted(() => {
     AOS.init();
 })
 </script>
+
 <template>
     <section id="gallery">
         <div class="sm:max-w-xl md:max-w-screen-lg lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-24 px-4 py-16 mx-auto">
@@ -40,7 +41,7 @@ onMounted(() => {
                     <div class="hover:-translate-y-2 hover:shadow-2xl relative overflow-hidden transition duration-200 transform rounded shadow-lg"
                         data-aos="fade-right" data-aos-delay="500" data-aos-offset="200">
                         <img class="md:h-64 xl:h-80 object-cover w-full h-56" :src="img.imgPath" :alt="img.name" />
-                        <div class="absolute inset-x-0 bottom-0 px-6 py-4 bg-gray-900 bg-opacity-75">
+                        <div class="absolute inset-x-0 bottom-0 px-6 py-4 bg-gray-950 bg-opacity-75">
                             <p class="font-inter text-base font-semibold tracking-normal text-white">
                                 {{ img.name }}
                             </p>

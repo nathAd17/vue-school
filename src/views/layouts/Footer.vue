@@ -79,7 +79,7 @@
                 </div>
                 <div class="pt-5 pb-10 text-center border-t">
                     <p class="font-inter text-sm font-semibold text-gray-800">
-                        © Copyright 2024 PKBM Yeremia.
+                        © Copyright {{ currentYear }} PKBM Yeremia.
                     </p>
                 </div>
             </div>
@@ -87,3 +87,13 @@
     </footer>
     <!-- Footer End -->
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            currentYear: new Date().getFullYear()
+        };
+    }
+};
+</script>
