@@ -54,6 +54,7 @@
     </section>
     <!-- Home Section End -->
 </template>
+
 <script>
 export default {
     data() {
@@ -97,8 +98,8 @@ export default {
             const finalPengajar = 7;
             const finalAkreditasi = 'B';
 
-            const duration = 3000; // Durasi animasi dalam milidetik
-            const steps = 100; // Langkah-langkah dalam animasi
+            const duration = 5000;
+            const steps = 100;
 
             const pelajarStep = finalPelajar / steps;
             const alumniStep = finalAlumni / steps;
