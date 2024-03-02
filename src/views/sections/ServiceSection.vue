@@ -6,6 +6,7 @@ onMounted(() => {
     AOS.init();
 })
 </script>
+
 <template>
     <section id="service" class="relative bg-gray-200">
         <div class="sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24 px-4 pt-32 pb-20 mx-auto">
@@ -22,7 +23,8 @@ onMounted(() => {
                         <svg viewBox="0 0 52 24"
                             class="fill-rose-500 -z-0 text-rose-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block absolute top-0 left-0 hidden w-32 -mt-8 -ml-20">
                             <defs>
-                                <pattern id="d9d7687a-355f-4502-8ec4-7945db034688" x="0" y="0" width=".135" height=".30">
+                                <pattern id="d9d7687a-355f-4502-8ec4-7945db034688" x="0" y="0" width=".135"
+                                    height=".30">
                                     <circle cx="1" cy="1" r=".7"></circle>
                                 </pattern>
                             </defs>

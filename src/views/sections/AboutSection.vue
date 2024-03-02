@@ -6,6 +6,7 @@ onMounted(() => {
     AOS.init();
 })
 </script>
+
 <template>
     <section class="isolate relative bg-gray-100" id="about">
         <div class="font-rubik md:mx-auto md:mb-12 max-w-lg pt-24 mb-2 text-center">
@@ -37,7 +38,8 @@ onMounted(() => {
                 <h2
                     class="font-inter bg-rose-100 shadow-slate-300 px-6 py-1 text-xl font-bold text-left text-gray-900 border border-gray-200 rounded-sm shadow-md">
                     Visi</h2>
-                <p class="md:text-lg font-opensans mt-2 mb-4 text-base font-medium text-justify text-gray-700">Tercapainya
+                <p class="md:text-lg font-opensans mt-2 mb-4 text-base font-medium text-justify text-gray-700">
+                    Tercapainya
                     masyarakat yang cerdas, terampil, mandiri, berbudi luhur dan produktif dan dapat
                     meningkatkan kesejahteraan masyarakat.</p>
                 <h2
