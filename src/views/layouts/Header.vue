@@ -1,6 +1,6 @@
 <template>
     <header>
-        <div :class="{ 'bg-gray-300': isScrolled }"
+        <div :class="{ 'bg-gray-300 rounded-xl mt-2': isScrolled }"
             class="lg:max-w-screen-2xl md:max-w-screen-xl fixed top-0 left-0 right-0 z-[9999] flex flex-wrap items-center justify-between p-4 mx-auto transition-all">
             <a href="#home" aria-label="PKBM Yeremia" title="PKBM Yeremia" class="inline-flex items-center">
                 <img src="/src/assets/logo.png" alt="logo" class="w-16 rounded-full">
